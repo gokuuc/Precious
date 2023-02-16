@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoad : MonoBehaviour
 {
+
+    public GameObject pausemenu;
+
     public void PlayMenu()
     {
         SceneManager.LoadScene("PlayMenu");
@@ -44,5 +47,11 @@ public class SceneLoad : MonoBehaviour
     public void MapEight()
     {
         SceneManager.LoadScene("8thMap");
+    }
+    
+    public void Playy()
+    {
+        pausemenu.SetActive(false);
+        Time.timeScale = 1f;
     }
 }

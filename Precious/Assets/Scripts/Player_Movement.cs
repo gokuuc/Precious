@@ -13,9 +13,13 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] private Transform groundcheck;
     [SerializeField] private LayerMask Groundlayer;
 
+    public Animator animate;
+
     private void Update()
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
+
+        animate.SetFloat("Speed", Mathf.Abs(Horizontal));
 
         if (Input.GetButtonDown("Jump") && Grounded())
         {
