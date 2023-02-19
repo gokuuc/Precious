@@ -14,25 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstMap.unity
     guid: dba5ef79c9495b94aa874fe24d40013f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SecondMap.unity
     guid: 181ed82d4cbfb0d4b90c15d621261c15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ThirdMap.unity
     guid: 0283f5cc6cd5b2c4cb8c538147265158
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/4thMap.unity
     guid: b24bfc69da2add042aa2dae47aed08ef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/5thMap.unity
     guid: 4b949ea1087ac6a4482beea4e31d14da
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/6thMap.unity
     guid: 12d43bbb63b832f4c8476f03738dda10
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/7thMap.unity
     guid: b2ddbc44058885f4d9a26f3220eef098
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/8thMap.unity
     guid: c84dbc5ee05926c46aa38299a09b3ba8
   m_configObjects: {}
